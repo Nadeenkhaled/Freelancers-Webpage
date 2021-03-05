@@ -1036,25 +1036,25 @@ footer li {
     position: absolute;
     width: 50px;
     right: 280px;
-    bottom: 80px;
+    bottom: 200px;
   }
   .star-yel-icon {
     position: absolute;
     width: 50px;
     right: 40px;
-    bottom: 200px;
+    bottom: 340px;
   }
   .phone-icon {
     position: absolute;
     width: 80px;
     right: 35px;
-    bottom: 10px;
+    bottom: 130px;
   }
   .send-icon {
     position: absolute;
     width: 50px;
     right: 270px;
-    bottom: -110px;
+    bottom: -70px;
   }
   .lady-icon {
     display: none;
