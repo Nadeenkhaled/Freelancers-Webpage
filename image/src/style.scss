@@ -1017,17 +1017,17 @@ a{
 }
 .check-icon {
     transform: rotate(-20deg);
-    @include header-icons(70px, 600px, 420px);
+    @include header-icons(70px, 600px, 200px);
 }
 .star-yel-icon {
-    @include header-icons(80px, 220px, 540px);
+    @include header-icons(80px, 220px, 340px);
 }
 .phone-icon {
-    @include header-icons(120px, 170px, -50px);
+    @include header-icons(120px, 170px, -130px);
     transform: rotate(40deg);
 }
 .send-icon {
-    @include header-icons(70px, 780px, -40px);
+    @include header-icons(70px, 780px, -70px);
 }
 .lady-icon {
     height:10%;
