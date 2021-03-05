@@ -774,10 +774,10 @@ a{
          bottom:620px; 
     }
     .regular-user {
-        right:200px;
+        right:220px;
     }
     .profile-user {
-        left:200px;
+        left:180px;
     }
 
     .growth {
@@ -826,6 +826,7 @@ a{
       .market-btn,.profile-btn {
           width:285px;
           height:60px;
+          margin:0 auto;
       }
       .metric-board {
          margin:4rem 2rem;
@@ -890,7 +891,7 @@ padding:3.5rem 3.7rem;
     font-size:3.5rem;
 }
 .platform-list {
-    width:310px;
+    width:340px;
 }
 .platform-visitors-box {
 display:none;
@@ -1017,17 +1018,17 @@ a{
 }
 .check-icon {
     transform: rotate(-20deg);
-    @include header-icons(70px, 600px, 200px);
+    @include header-icons(70px, 600px, 260px);
 }
 .star-yel-icon {
-    @include header-icons(80px, 220px, 340px);
+    @include header-icons(80px, 220px, 460px);
 }
 .phone-icon {
-    @include header-icons(120px, 170px, -130px);
+    @include header-icons(120px, 170px, -70px);
     transform: rotate(40deg);
 }
 .send-icon {
-    @include header-icons(70px, 780px, -70px);
+    @include header-icons(70px, 780px, -40px);
 }
 .lady-icon {
     height:10%;

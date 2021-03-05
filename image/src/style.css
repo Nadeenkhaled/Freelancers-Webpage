@@ -1169,10 +1169,10 @@ footer li {
     bottom: 620px;
   }
   .regular-user {
-    right: 200px;
+    right: 220px;
   }
   .profile-user {
-    left: 200px;
+    left: 180px;
   }
   .growth {
     border-radius: 20px;
@@ -1220,6 +1220,7 @@ footer li {
   .market-btn, .profile-btn {
     width: 285px;
     height: 60px;
+    margin: 0 auto;
   }
   .metric-board {
     margin: 4rem 2rem;
@@ -1287,7 +1288,7 @@ footer li {
     font-size: 3.5rem;
   }
   .platform-list {
-    width: 310px;
+    width: 340px;
   }
   .platform-visitors-box {
     display: none;
@@ -1453,19 +1454,19 @@ footer li {
     position: absolute;
     width: 70px;
     right: 600px;
-    bottom: 200px;
+    bottom: 260px;
   }
   .star-yel-icon {
     position: absolute;
     width: 80px;
     right: 220px;
-    bottom: 340px;
+    bottom: 460px;
   }
   .phone-icon {
     position: absolute;
     width: 120px;
     right: 170px;
-    bottom: -130px;
+    bottom: -70px;
     -webkit-transform: rotate(40deg);
             transform: rotate(40deg);
   }
@@ -1473,7 +1474,7 @@ footer li {
     position: absolute;
     width: 70px;
     right: 780px;
-    bottom: -70px;
+    bottom: -40px;
   }
   .lady-icon {
     height: 10%;
