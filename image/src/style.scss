@@ -664,16 +664,16 @@ a{
         width:100%;
     }
     .check-icon {
-        @include header-icons(50px, 280px, 200px);
+        @include header-icons(50px, 280px, 80px);
     }
     .star-yel-icon {
-        @include header-icons(50px, 40px, 340px);
+        @include header-icons(50px, 40px, 200px);
     }
     .phone-icon {
-        @include header-icons(80px, 35px, 130px);
+        @include header-icons(80px, 35px, 10px);
     }
     .send-icon {
-        @include header-icons(50px, 270px, -70px);
+        @include header-icons(50px, 270px, -110px);
     }
     .lady-icon {
         display: none;

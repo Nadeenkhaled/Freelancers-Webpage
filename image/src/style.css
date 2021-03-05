@@ -22,6 +22,7 @@ header {
   background: #ffe1ae;
   background: -webkit-gradient(linear, left top, right bottom, from(#ffe1ae), color-stop(0%, #ffe2cb), color-stop(44%, #ff9899), to(#beedff));
   background: linear-gradient(to bottom right, #ffe1ae 0%, #ffe2cb 0%, #ff9899 44%, #beedff 100%);
+  position: relative;
 }
 
 a {
@@ -909,12 +910,6 @@ footer li {
   color: lightgrey;
 }
 
-
-
-
-
-
-
 /*mobile responsive*/
 @media (max-width: 450px) {
   header {
@@ -1041,25 +1036,25 @@ footer li {
     position: absolute;
     width: 50px;
     right: 280px;
-    bottom: 200px;
+    bottom: 80px;
   }
   .star-yel-icon {
     position: absolute;
     width: 50px;
     right: 40px;
-    bottom: 340px;
+    bottom: 200px;
   }
   .phone-icon {
     position: absolute;
     width: 80px;
     right: 35px;
-    bottom: 130px;
+    bottom: 10px;
   }
   .send-icon {
     position: absolute;
     width: 50px;
     right: 270px;
-    bottom: -70px;
+    bottom: -110px;
   }
   .lady-icon {
     display: none;
@@ -1458,19 +1453,19 @@ footer li {
     position: absolute;
     width: 70px;
     right: 600px;
-    bottom: 420px;
+    bottom: 200px;
   }
   .star-yel-icon {
     position: absolute;
     width: 80px;
     right: 220px;
-    bottom: 540px;
+    bottom: 340px;
   }
   .phone-icon {
     position: absolute;
     width: 120px;
     right: 170px;
-    bottom: -50px;
+    bottom: -130px;
     -webkit-transform: rotate(40deg);
             transform: rotate(40deg);
   }
@@ -1478,7 +1473,7 @@ footer li {
     position: absolute;
     width: 70px;
     right: 780px;
-    bottom: -40px;
+    bottom: -70px;
   }
   .lady-icon {
     height: 10%;
