@@ -1,0 +1,55 @@
+@mixin main-gradient {
+    background: rgb(255,225,174);
+    background: linear-gradient(to bottom right, rgba(255,225,174,1) 0%, rgba(255,226,203,1) 0%, rgba(255,152,153,1) 44%, rgba(190,237,255,1) 100%);
+}
+@mixin yellow-gradient {
+    background: rgb(255,225,174);
+    background: linear-gradient(to bottom right, rgba(255,225,174,1) 0%, rgba(255,244,230,1) 0%, rgba(255,231,198,1) 44%, rgba(255,243,238,1) 100%);
+
+}
+@mixin pink-gradient {
+    background: rgb(255,225,174);
+    background: linear-gradient(to bottom right, rgba(255,225,174,1) 0%, rgba(255,230,251,1) 0%, rgba(255,199,216,1) 44%, rgba(252,233,247,1) 100%);
+}
+@mixin blue-gradient {
+    background: rgb(255,225,174);
+    background: linear-gradient(to bottom right, rgba(255,225,174,1) 0%, rgb(195, 209, 255) 0%, rgb(221, 236, 255) 44%, rgb(216, 231, 255) 100%);
+}
+@mixin btns{
+    width:130px;
+    height:40px;
+    margin:1rem 0.5rem 1rem 0;
+    border-radius:10px;
+    border:none;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgb(134, 90, 91);
+}
+@mixin flex($justify-content) {
+    display:flex;
+    align-items: center;
+    justify-content: $justify-content;
+}
+@mixin light-btn($bk-color,$width, $color) {
+    background-color:$bk-color;
+    width:$width;
+    color:$color;
+}
+@mixin header-icons($width,$right, $bottom){
+    position: absolute;
+    width:$width;
+    right:$right;
+    bottom:$bottom;
+}
+@mixin empty-box($width, $height){
+    width: $width;
+    height: $height;
+    position: absolute;
+    z-index:-1;
+    border-radius: 50px 0;
+}
+@mixin positions($width, $height){
+    width: $width;
+    height: $height;
+    position: absolute;
+    border-radius: 20px;
+}
