@@ -1042,19 +1042,19 @@ footer li {
     position: absolute;
     width: 50px;
     right: 40px;
-    bottom: 340px;
+    bottom: 380px;
   }
   .phone-icon {
     position: absolute;
     width: 80px;
     right: 35px;
-    bottom: 130px;
+    bottom: 110px;
   }
   .send-icon {
     position: absolute;
     width: 50px;
     right: 270px;
-    bottom: -70px;
+    bottom: -30px;
   }
   .lady-icon {
     display: none;

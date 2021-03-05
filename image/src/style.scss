@@ -667,13 +667,13 @@ a{
         @include header-icons(50px, 280px, 200px);
     }
     .star-yel-icon {
-        @include header-icons(50px, 40px, 340px);
+        @include header-icons(50px, 40px, 380px);
     }
     .phone-icon {
-        @include header-icons(80px, 35px, 130px);
+        @include header-icons(80px, 35px, 110px);
     }
     .send-icon {
-        @include header-icons(50px, 270px, -70px);
+        @include header-icons(50px, 270px, -30px);
     }
     .lady-icon {
         display: none;
